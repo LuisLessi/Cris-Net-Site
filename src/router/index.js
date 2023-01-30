@@ -15,6 +15,16 @@ const router = createRouter({
       name: 'planos',
       component: () => import(/* webpackChunkName: "planos" */ '../views/Planos.vue')
     },
+    {
+      path: '/cobertura',
+      name: 'cobertura',
+      component: () => import(/* webpackChunkName: "planos" */ '../views/Cobertura.vue')
+    },
+    {
+      path: '/Duvidas',
+      name: 'duvidas',
+      component: () => import(/* webpackChunkName: "planos" */ '../views/Duvidas.vue')
+    },
   ]
 })
 

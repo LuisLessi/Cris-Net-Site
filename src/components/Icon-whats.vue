@@ -1,5 +1,5 @@
 <template>
-    <a href="//wa.me/5516997115735" target="_blank" rel="Numero">
+    <a href="//wa.me/5516997115735" target="_blank" rel="Numero" title="Entre em contato">
        <font-awesome-icon class="whats-link" :icon="['fab', 'whatsapp']"/>
    </a>
 

@@ -1,4 +1,17 @@
 <template>
+    <div class="header-color">
+   <span class="header">(16) 3203-3699 | atendimento@crisnet.com &nbsp&nbsp&nbsp
+
+   <a class="icons" target="_blank" href="https://www.facebook.com/crisnetjab" style="color: white;">
+    <font-awesome-icon  :icon="['fab', 'facebook']"/></a>
+    &nbsp&nbsp&nbsp
+    <a class="icons" target="_blank" href="https://www.instagram.com/crisnetjab/" style="color: white;">
+        <font-awesome-icon  :icon="['fab', 'instagram']"/></a>
+    &nbsp&nbsp&nbsp
+    <a class="icons" target="_blank" style="color: white;" href="https://www.linkedin.com/company/cris-net-telecomunica%C3%A7%C3%B5es/">
+        <font-awesome-icon  :icon="['fab', 'linkedin']"/></a>
+  </span>
+    </div>
      <header>
         <div class="logo">
             <router-link to="/"><img src="../assets/logo.jpg" alt=""></router-link>
@@ -8,22 +21,22 @@
             
             <ul>
                 <li>
-                    <a href="" class="/">Home</a>
+                    <router-link to="/">Início</router-link>
                 </li>
                 <li>
-                   <a href="">Products</a>
+                    <router-link to="/planos">Planos</router-link>
                 </li>
                 <li>
-                    <a href="">Features</a>
+                    <router-link to="/cobertura">Cobertura</router-link>
                 </li>
                 <li>
-                    <a href="">Pricing</a>
+                   <router-link to="/wwdwdwd">Contrato</router-link>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <router-link to="/duvidas">Duvidas ?</router-link>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <router-link to="/lle">Assinante</router-link>
                 </li>
             </ul>
         </nav>
@@ -37,6 +50,7 @@
 
 <script>
 import { RouterLink } from 'vue-router';
+
 export default {
     
 }
@@ -71,6 +85,7 @@ header {
     margin-top: 10px;
     margin-left: 10%;
     position: fixed;
+    z-index: 100;
 
 }
 .logo {
@@ -83,6 +98,23 @@ header {
     border-radius: 50%;
 
 }
+.router-link-active{
+    color: #fff;
+    background: #d83636;
+}
+.header-color{
+  background-color: #021c41;
+  height: 40px;
+}
+.header{
+  margin:auto; 
+  display:table;
+  color: white;
+  font-family: 'Lato regular';
+  font-size: 20px;
+  
+}
+
 nav .logo {
     display: none;
 }
@@ -90,18 +122,16 @@ nav ul {
     display: flex;
 }
 nav ul li a {
-    color: #212526;
     display: block;
     margin: 0 2px;
     padding: 8px 18px;
     transition: 0.2s;
     border-radius: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 290px;
+    font-weight: 290%;
+    color: #212526;
 
 }
-
-
 
 nav ul li a:hover {
     color: white;
@@ -128,17 +158,18 @@ nav ul li a.active {
     margin: 6px 0;
     background: #212526;
 }
+
 @media only screen and (max-width: 1100px) {
 
     header {
         width: 90%;
         padding: 0 20px;
-        margin-left: 3%;
+        margin-left: 5%;
 
     }
     nav {
         position: absolute;
-        left: -300px;
+        left: -315px;
         top: 0;
         z-index: 999;
         width: 280px;

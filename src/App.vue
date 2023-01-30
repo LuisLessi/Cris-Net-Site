@@ -30,5 +30,8 @@ export default{
 </script>
 
 <style scoped>
-
+#nav a.router-link-exact-active{
+  color: #fff;
+    background: #d83636;
+}
 </style>
