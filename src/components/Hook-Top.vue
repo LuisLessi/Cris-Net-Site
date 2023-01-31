@@ -12,6 +12,9 @@ window.addEventListener('scroll', function() {
     target.style.display = 'none';
   }
 });
+
+
+
 </script>
 
 <style>

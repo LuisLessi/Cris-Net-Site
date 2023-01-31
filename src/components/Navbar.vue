@@ -1,16 +1,17 @@
 <template>
     <div class="header-color">
-   <span class="header">(16) 3203-3699 | atendimento@crisnet.com &nbsp&nbsp&nbsp
+   <span class="header">Assine conosco: (16) 3203-3699 | atendimento@crisnet.com &nbsp
 
-   <a class="icons" target="_blank" href="https://www.facebook.com/crisnetjab" style="color: white;">
+   <a class="icons face" target="_blank" href="https://www.facebook.com/crisnetjab" >
     <font-awesome-icon  :icon="['fab', 'facebook']"/></a>
     &nbsp&nbsp&nbsp
-    <a class="icons" target="_blank" href="https://www.instagram.com/crisnetjab/" style="color: white;">
+    <a class="icons insta" target="_blank" href="https://www.instagram.com/crisnetjab/" >
         <font-awesome-icon  :icon="['fab', 'instagram']"/></a>
     &nbsp&nbsp&nbsp
-    <a class="icons" target="_blank" style="color: white;" href="https://www.linkedin.com/company/cris-net-telecomunica%C3%A7%C3%B5es/">
+    <a class="icons linkedin" target="_blank" href="https://www.linkedin.com/company/cris-net-telecomunica%C3%A7%C3%B5es/">
         <font-awesome-icon  :icon="['fab', 'linkedin']"/></a>
   </span>
+    
     </div>
      <header>
         <div class="logo">
@@ -30,10 +31,10 @@
                     <router-link to="/cobertura">Cobertura</router-link>
                 </li>
                 <li>
-                   <router-link to="/wwdwdwd">Contrato</router-link>
+                    <router-link to="/duvidas">Duvidas ?</router-link>
                 </li>
                 <li>
-                    <router-link to="/duvidas">Duvidas ?</router-link>
+                   <router-link to="/wwdwdwd">Contrato</router-link>
                 </li>
                 <li>
                     <router-link to="/lle">Assinante</router-link>
@@ -41,7 +42,7 @@
             </ul>
         </nav>
         <label for="nav_check" class="hamburger">
-            <div class="line"></div>
+            <div class="line" ></div>
             <div class="line"></div>
             <div class="line"></div>
         </label>
@@ -52,7 +53,7 @@
 import { RouterLink } from 'vue-router';
 
 export default {
-    
+   
 }
 </script>
 
@@ -105,6 +106,18 @@ header {
 .header-color{
   background-color: #021c41;
   height: 40px;
+}
+.icons{
+    color: white;
+}
+.insta:hover{
+    color: #ff0175
+}
+.face:hover{
+    color: #3b5998;
+}
+.linkedin:hover{
+    color: #0a66c2;
 }
 .header{
   margin:auto; 
@@ -167,6 +180,15 @@ nav ul li a.active {
         margin-left: 5%;
 
     }
+    .header-color{
+        height: 60px;
+    }
+    .logo {
+    max-width:70px;
+    margin-top: 0px;
+    border-radius: 20%;
+    cursor: pointer;
+}
     nav {
         position: absolute;
         left: -315px;

@@ -1,7 +1,7 @@
 <template>
   <footer class="site-footer">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-sm-12 col-md-6">
           <h6>Sobre</h6>
           <p class="text-justify">Com grandes investimentos em equipamentos e infra-estrutura, a <i>CRIS.NET</i> foi fundada em
@@ -17,9 +17,9 @@
         <div class="col-xs-6 col-md-3">
           <h6>Mapa do site</h6>
           <ul class="footer-links">
-            <li><a href="http://scanfcode.com/category/c-language/">Início</a></li>
+            <li><RouterLink to="/">Início</RouterLink></li>
             <li><a href="http://scanfcode.com/category/front-end-development/">Planos</a></li>
-            <li><a href="http://scanfcode.com/category/back-end-development/">Cobertura</a></li>
+            <li><RouterLink to="/cobertura">Cobertura</RouterLink></li>
             <li><a href="http://scanfcode.com/category/android/">Duvidas ?</a></li>
           </ul>
         </div>
@@ -59,6 +59,7 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
 
 </script>
 
@@ -139,7 +140,9 @@
 .copyright-text {
   margin: 0
 }
-
+.row{
+  margin-top: -10%
+}
 @media (max-width:991px) {
   .site-footer [class^=col-] {
     margin-bottom: 30px

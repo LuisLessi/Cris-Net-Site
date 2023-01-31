@@ -1,19 +1,26 @@
 <template>
     <section>
         <Carousel_home/>
-    
+    </section>
+    <section>
+        <Card_Home/>
+    </section>
+    <section>
+        <h1 style="text-align: center;">Faça seu teste de conexão</h1>
+        <img src="../assets/medicao.png" alt="">
     </section>
 </template>
 
 <script>
-import Carousel_home from '../components/Carousel-Home.vue'
-
+import Carousel_home from '../components/Carousel-Home.vue';
+import Card_Home from '../components/Card-Home.vue';
 export default {
     mounted() {
         window.scrollTo(0, 0)
     },
     components: {
-        Carousel_home
+        Carousel_home,
+        Card_Home
     },
 }
 </script>
