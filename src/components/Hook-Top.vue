@@ -6,13 +6,13 @@
 window.addEventListener('scroll', function() {
   const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   const target = document.querySelector('.my-element');
-  if (scrollPosition > 600) {
-    target.style.display = 'block';
-  } else {
+  target.style.display = 'none';
+  if (scrollPosition < 600) {
     target.style.display = 'none';
+  } else {
+    target.style.display = 'block';
   }
 });
-
 
 
 </script>

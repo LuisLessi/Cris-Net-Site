@@ -30,9 +30,8 @@
 
 <style scoped>
 .carousel {
-  max-width: 91%;
+  max-width: 100%;
     margin-top: 9%;
-margin-left: 4.5%;
 } 
 .carousel-inner{
   border-radius: 10px 10px 10px 10px;

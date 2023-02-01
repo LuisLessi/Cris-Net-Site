@@ -1,6 +1,6 @@
 <template>
     <div class="header-color">
-   <span class="header">Assine conosco: (16) 3203-3699 | atendimento@crisnet.com &nbsp
+   <span class="header">Assine conosco: (16) 3203-3699 | sac@crisnet.com.br &nbsp
 
    <a class="icons face" target="_blank" href="https://www.facebook.com/crisnetjab" >
     <font-awesome-icon  :icon="['fab', 'facebook']"/></a>
@@ -21,7 +21,7 @@
         <nav>
             
             <ul>
-                <li>
+                <li class="item">
                     <router-link to="/">Início</router-link>
                 </li>
                 <li>
@@ -51,7 +51,6 @@
 
 <script>
 import { RouterLink } from 'vue-router';
-
 export default {
    
 }
@@ -85,8 +84,9 @@ header {
     margin: 0 auto;
     margin-top: 10px;
     margin-left: 10%;
-    position: fixed;
+    position: static;
     z-index: 100;
+    margin-bottom: -7.7%;
 
 }
 .logo {
@@ -123,7 +123,7 @@ header {
   margin:auto; 
   display:table;
   color: white;
-  font-family: 'Lato regular';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   
 }
@@ -178,6 +178,8 @@ nav ul li a.active {
         width: 90%;
         padding: 0 20px;
         margin-left: 5%;
+        position: static;
+        margin-bottom: -35%;
 
     }
     .header-color{
@@ -193,6 +195,8 @@ nav ul li a.active {
         position: absolute;
         left: -315px;
         top: 0;
+        margin-top: 18%;
+        bottom: 10;
         z-index: 999;
         width: 280px;
         height: 100vh;

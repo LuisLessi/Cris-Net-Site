@@ -5,10 +5,10 @@
     <section>
         <Card_Home/>
     </section>
-    <section>
+   <!-- <section>
         <h1 style="text-align: center;">Faça seu teste de conexão</h1>
         <img src="../assets/medicao.png" alt="">
-    </section>
+    </section>-->
 </template>
 
 <script>
