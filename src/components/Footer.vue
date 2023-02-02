@@ -73,7 +73,7 @@ import { RouterLink } from 'vue-router';
   background-color: #021c41;
 }
 .container{
-  margin-left: 80%;
+  margin-left: 16%;
 
 }
 .site-footer hr {

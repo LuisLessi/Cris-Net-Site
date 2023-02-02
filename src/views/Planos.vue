@@ -47,6 +47,10 @@ p {
     font-family: inherit;
     color: white;
 }
+.container{
+  margin-left: 16%;
+
+}
 
 .container p {
     font-size: 21px;
