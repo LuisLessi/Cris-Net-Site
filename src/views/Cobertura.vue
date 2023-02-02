@@ -70,7 +70,7 @@ p {
 }
 
 iframe {
-    width: 1702px;
+    width: 1681px;
 }
 
 @media only screen and (max-width: 1100px) {

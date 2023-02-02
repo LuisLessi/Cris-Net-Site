@@ -4,14 +4,14 @@
             <br>
             <h1>Dúvidas Frequentes</h1><br>
             <div>
-                <img src="../assets/cobertura_img.png" class="img">
+                <img src="../assets/duvida.png" class="img">
                 <p>Reunimos em alguns tópicos algumas das questões mais frequentes feitas pelos nosso clientes. Caso a
                     sua dúvida não foi sanada ou não está em algum desses tópicos, favor entrar em contato diretamente
                     com nossa equipe. 
                 </p>
                 <p style="font-size: 31px;">
                     📞 (55) 16 3203-3699
-                </p><br>
+                </p>
                 <p style="font-size: 31px;">
                     📲 (55) 16 99711-5735
                 </p>
@@ -25,7 +25,7 @@
     </section>
     <section class="section2" >
 
-        <div class="container">
+        <div class="container" style="text-align:center">
             <br>
            <Lista/>
         </div>
