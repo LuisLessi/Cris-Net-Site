@@ -72,7 +72,10 @@ import { RouterLink } from 'vue-router';
   color: #737373;
   background-color: #021c41;
 }
+.container{
+  margin-left: 80%;
 
+}
 .site-footer hr {
   border-top-color: #bbb;
   opacity: 0.5
