@@ -91,6 +91,7 @@ section img {
     margin: -70px 10px 0px 0px;
     max-width: 686px;
     max-height: 300px;
+    margin-top: 1%;
 }
 
 @media only screen and (max-width: 1100px) {

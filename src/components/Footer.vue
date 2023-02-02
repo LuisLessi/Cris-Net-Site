@@ -42,7 +42,7 @@
           <p class="copyright-text">Crisnet &copy; 2023 Todos os direitos reservados
           </p>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-12 col-sm-6 col-xs-12">
           <ul class="social-icons">
             <li><a class="facebook" href="https://www.facebook.com/crisnetjab" target="_blank"><font-awesome-icon
                   :icon="['fab', 'facebook']" /></a></li>
@@ -151,6 +151,9 @@ import { RouterLink } from 'vue-router';
 .container{
   margin-left: 0%;
 }
+.social-icons{
+    margin-right: 35%;
+  }
 }
 @media (max-width:991px) {
   .site-footer [class^=col-] {
