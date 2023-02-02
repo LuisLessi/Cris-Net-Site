@@ -37,7 +37,7 @@
                    <router-link to="/wwdwdwd">Contrato</router-link>
                 </li>
                 <li>
-                    <router-link to="/lle">Assinante</router-link>
+                    <a href="https://crisnet.com.br/central_assinante_web/login" target="__blank">Assinante</a>
                 </li>
             </ul>
         </nav>
