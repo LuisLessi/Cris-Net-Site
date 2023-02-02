@@ -18,9 +18,9 @@
           <h6>Mapa do site</h6>
           <ul class="footer-links">
             <li><RouterLink to="/">Início</RouterLink></li>
-            <li><a href="http://scanfcode.com/category/front-end-development/">Planos</a></li>
+            <li><RouterLink to="/planos">Planos</RouterLink></li>
             <li><RouterLink to="/cobertura">Cobertura</RouterLink></li>
-            <li><a href="http://scanfcode.com/category/android/">Duvidas ?</a></li>
+            <li><RouterLink to="/duvidas">Duvidas ?</RouterLink></li>
           </ul>
         </div>
 
@@ -145,6 +145,12 @@ import { RouterLink } from 'vue-router';
 }
 .row{
   margin-top: -10%
+}
+
+@media only screen and (max-width: 1100px) {
+.container{
+  margin-left: 0%;
+}
 }
 @media (max-width:991px) {
   .site-footer [class^=col-] {

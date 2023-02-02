@@ -29,9 +29,18 @@ export default{
 }
 </script>
 
-<style scoped>
+<style>
 #nav a.router-link-exact-active{
   color: #fff;
     background: #d83636;
+}
+.container{
+  margin-left: 16%;
+
+}
+@media only screen and (max-width: 1100px) {
+.container{
+  margin-left: 0%;
+}
 }
 </style>
