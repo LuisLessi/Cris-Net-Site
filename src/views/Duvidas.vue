@@ -95,7 +95,7 @@ section img {
 
 @media only screen and (max-width: 1100px) {
     .section {
-    height: 800px;
+    height: 700px;
     margin-top: 40%;
     margin-bottom: -22.4%;
 

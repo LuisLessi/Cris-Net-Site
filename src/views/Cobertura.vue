@@ -85,7 +85,7 @@ iframe {
     }
 
     .section {
-        height: 780px;
+        height: 700px;
         margin-top: 40%;
 
     }
