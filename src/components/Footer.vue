@@ -39,7 +39,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Crisnet &copy; 2023 Todos os direitos reservados
+          <p class="copyright-text">Crisnet &copy; {{ new Date().getFullYear() }} Todos os direitos reservados
           </p>
         </div>
         <div class="col-md-12 col-sm-6 col-xs-12">
