@@ -4,7 +4,7 @@
             <br>
             <h1>Confira nossos planos</h1><br>
             <div>
-                <img src="../assets/planos.png" class="img">
+                <img src="../assets/planos.png" class="img animate__animated animate__flipInX">
 
                 <p>Não há mais espera para carregar páginas ou vídeos, não há mais buffering interminável. Com nossos
                     planos, você pode navegar, jogar, trabalhar e assistir aos seus conteúdos favoritos com facilidade e

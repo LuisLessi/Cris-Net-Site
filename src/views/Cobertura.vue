@@ -4,7 +4,7 @@
             <br>
             <h1>Nossa área de cobertura</h1><br>
             <div>
-                <img src="../assets/cobertura_img.png" class="img">
+                <img src="../assets/cobertura_img.png" class="img animate__animated animate__flipInX">
                 <p>Oferecemos uma ampla área de cobertura, garantindo acesso estável e confiável à internet para nossos
                     clientes. Nossos serviços de internet estão disponíveis em regiões urbanas e rurais, com a
                     utilização de tecnologias avançadas e infraestrutura sólida. Verifique se sua localização está

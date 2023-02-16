@@ -4,7 +4,7 @@
             <br>
             <h1>Dúvidas Frequentes</h1><br>
             <div>
-                <img src="../assets/duvida.png" class="img">
+                <img src="../assets/duvida.png" class="img animate__animated animate__flipInX">
                 <p>Reunimos em alguns tópicos algumas das questões mais frequentes feitas pelos nosso clientes. Caso a
                     sua dúvida não foi sanada ou não está em algum desses tópicos, favor entrar em contato diretamente
                     com nossa equipe. 
